@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",                          
+    "module": "es2015",                     
+    "moduleResolution": "node",            
+    "lib": ["ES2017", "DOM", "DOM.Iterable"],                             
+    "declaration": true,                   
+    "sourceMap": true,                     
+    "outDir": "./build",                        
+    "removeComments": true,                
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
